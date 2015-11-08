@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor  &middot; Kaushal Subedi&#39;s Blog</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="">
+
+<link rel="author" href="http://plus.google.com/+KaushalSubedi">
+
+
+<meta property="og:title" content="Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor  &middot; Kaushal Subedi&#39;s Blog ">
+<meta property="og:site_name" content="Kaushal Subedi&#39;s Blog"/>
+<meta property="og:url" content="http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2015-11-08T00:00:00Z" />
+<meta property="og:article:modified_time" content="2015-11-08T00:00:00Z" />
+
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@KSubediTweet" />
+<meta name="twitter:creator" content="@KSubediTweet" />
+<meta name="twitter:title" content="Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/" />
+<meta name="twitter:domain" content="http://localhost:1313/blog/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+KaushalSubedi?rel=author"
+    },
+    "datePublished": "2015-11-08",
+    "description": "",
+    "wordCount":  303 
+  }
+</script>
+
+
+
+<link rel="canonical" href="http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:1313/blog/touch-icon-144-precomposed.png">
+<link href="http://localhost:1313/blog/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.14" />
+
+  <!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="http://localhost:1313/blog/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:1313/blog/css/style.css">
+<link rel="stylesheet" href="http://localhost:1313/blog/css/highlight/default.css">
+
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="http://localhost:1313/blog/">
+  Kaushal&rsquo;s Blog
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  Random things from the head of a developer.
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="http://localhost:1313/blog/">Blog</a>
+
+
+  
+<a href="http://localhost:1313/">Home</a>
+
+<a href="http://localhost:1313/projects" title="Show list of posts">Projects</a>
+
+<a href="http://localhost:1313/" title="Show list of tags">Contact</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+<a id="contact-link-email" class="contact_link" href="mailto:kaushal@subedi.co">
+  <span class="fa fa-envelope-square"></span><span>email</span></a>
+
+
+
+<a id="contact-link-github" class="contact_link" href="https://github.com/KSubedi">
+  <span class="fa fa-github-square"></span><span>github</span></a>
+
+
+
+
+
+
+
+<a id="contact-link-googleplus" class="contact_link" href="https://plus.google.com/u/0/+KaushalSubedi">
+  <span class="fa fa-google-plus-square"></span><span>google+</span></a>
+
+
+
+<a id="contact-link-facebook" class="contact_link" href="https://www.facebook.com/ksub3di">
+  <span class="fa fa-facebook-square"></span><span>facebook</span></a>
+
+
+
+<a id="contact-link-twitter" class="contact_link" href="https://twitter.com/KSubediTweet">
+  <span class="fa fa-twitter-square"></span><span>twitter</span></a>
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor
+</h1>
+
+  <div class="metas">
+<time datetime="2015-11-08">8 Nov, 2015</time>
+
+
+  
+  &middot; Read in about 2 min
+  &middot; (303 Words)
+  <br>
+  
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  <p>Microsoft recently released a new open source text editor called <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a>. It is based on Github&rsquo;s Electron platform and is a cross platform application that runs on Windows, Linux and Mac OS X which is surprising considering it came from Microsoft. Surprisingly, it is a great editor when it comes to working with JavaScript and Node.js and basically anything front end (React, Angular&hellip;).</p>
+
+<p>One major gripe I had with it that was stopping me from making it my default editor for web application projects was that it used a concept of &ldquo;Working Files&rdquo; instead of tabs like most editors I have come across. It works fine once you get used to it, but since I was not using it as my primary editor for everything, it was hard going back and forth between tab based editor and VS Code. My main issue was that I could not switch between working files easily with the almost universal keyboard command to switch tabs &ldquo;CMD + SHIFT + [&rdquo; and &ldquo;CMD + SHIFT + ]&rdquo;. Also pressing &ldquo;CMD + W&rdquo; would close the file from the editor but not remove it from the &ldquo;Working Files Section&rdquo;.</p>
+
+<p><img src="/blog/img/visual-studio-code.png"/></p>
+
+<p>After spending a few minutes looking at the <a href="https://code.visualstudio.com/Docs/customization/keybindings" target="_blank">documentation for key bindings</a>, I changed a couple of things to make it work like any other tab based editor. Open up your key preferences json file (by going to Preferences -&gt; Keyboard Shortcuts) and paste or add the following:</p>
+
+<p><strong>Mac</strong></p>
+
+<p><code>[
+ {
+ &quot;key&quot;: &quot;cmd+shift+[&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.openPreviousWorkingFile&quot;
+ },
+ {
+ &quot;key&quot;: &quot;cmd+shift+]&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.openNextWorkingFile&quot;
+ },
+ {
+ &quot;key&quot;: &quot;cmd+w&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.closeFile&quot;
+ }
+]</code></p>
+
+<p><strong>Windows / Linux:</strong></p>
+
+<p><code>[
+ {
+ &quot;key&quot;: &quot;win+shift+[&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.openPreviousWorkingFile&quot;
+ },
+ {
+ &quot;key&quot;: &quot;win+shift+]&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.openNextWorkingFile&quot;
+ },
+ {
+ &quot;key&quot;: &quot;win+w&quot;,
+ &quot;command&quot;: &quot;workbench.files.action.closeFile&quot;
+ }
+]</code></p>
+
+<p>Let me know if you have a better way of doing this or any other suggestions!</p>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="http://localhost:1313/blog/why-i-love-my-new-acer-cb3-111-chromebook/" title="Why I love my new Acer CB3-111 Chromebook">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//KSubedi.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+  <i class='fa fa-heart'></i> Built in Colorado
+
+
+</div>
+
+
+  
+<div class="container copyright">
+  
+  © 2015 Kaushal Subedi, All Rights Reserved
+
+
+</div>
+
+
+</div>
+
+</footer>
+
+    </main>
+    
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//KSubedi.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="http://localhost:1313/blog/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+
+<script>
+  var _gaq=[['_setAccount','KaushalSubedi'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
+</script>
+
+
+    
+  <script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>
+

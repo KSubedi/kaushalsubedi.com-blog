@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Kaushal Subedi&#39;s Blog</title>
+    <link>http://localhost:1313/blog/post/</link>
+    <description>Recent content in Posts on Kaushal Subedi&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <managingEditor>kaushal@subedi.co (Kaushal Subedi)</managingEditor>
+    <webMaster>kaushal@subedi.co (Kaushal Subedi)</webMaster>
+    <copyright>© 2015 Kaushal Subedi, All Rights Reserved</copyright>
+    <lastBuildDate>Sun, 08 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor</title>
+      <link>http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/</link>
+      <pubDate>Sun, 08 Nov 2015 00:00:00 +0000</pubDate>
+      <author>kaushal@subedi.co (Kaushal Subedi)</author>
+      <guid>http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/</guid>
+      <description>&lt;p&gt;Microsoft recently released a new open source text editor called &lt;a href=&#34;https://code.visualstudio.com&#34; target=&#34;_blank&#34;&gt;Visual Studio Code&lt;/a&gt;. It is based on Github&amp;rsquo;s Electron platform and is a cross platform application that runs on Windows, Linux and Mac OS X which is surprising considering it came from Microsoft. Surprisingly, it is a great editor when it comes to working with JavaScript and Node.js and basically anything front end (React, Angular&amp;hellip;).&lt;/p&gt;
+
+&lt;p&gt;One major gripe I had with it that was stopping me from making it my default editor for web application projects was that it used a concept of &amp;ldquo;Working Files&amp;rdquo; instead of tabs like most editors I have come across. It works fine once you get used to it, but since I was not using it as my primary editor for everything, it was hard going back and forth between tab based editor and VS Code. My main issue was that I could not switch between working files easily with the almost universal keyboard command to switch tabs &amp;ldquo;CMD + SHIFT + [&amp;rdquo; and &amp;ldquo;CMD + SHIFT + ]&amp;rdquo;. Also pressing &amp;ldquo;CMD + W&amp;rdquo; would close the file from the editor but not remove it from the &amp;ldquo;Working Files Section&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/visual-studio-code.png&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;After spending a few minutes looking at the &lt;a href=&#34;https://code.visualstudio.com/Docs/customization/keybindings&#34; target=&#34;_blank&#34;&gt;documentation for key bindings&lt;/a&gt;, I changed a couple of things to make it work like any other tab based editor. Open up your key preferences json file (by going to Preferences -&amp;gt; Keyboard Shortcuts) and paste or add the following:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Mac&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+[&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
+ },
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+]&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
+ },
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;cmd+w&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
+ }
+]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Windows / Linux:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;[
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;win+shift+[&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
+ },
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;win+shift+]&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
+ },
+ {
+ &amp;quot;key&amp;quot;: &amp;quot;win+w&amp;quot;,
+ &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
+ }
+]&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Let me know if you have a better way of doing this or any other suggestions!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Why I love my new Acer CB3-111 Chromebook</title>
+      <link>http://localhost:1313/blog/why-i-love-my-new-acer-cb3-111-chromebook/</link>
+      <pubDate>Thu, 19 Feb 2015 00:00:00 +0000</pubDate>
+      <author>kaushal@subedi.co (Kaushal Subedi)</author>
+      <guid>http://localhost:1313/blog/why-i-love-my-new-acer-cb3-111-chromebook/</guid>
+      <description>&lt;p&gt;So I recently got a new Chromebook. If you do not know what a Chromebook is, it is basically a laptop that can run Chrome browser + some more. I was at a Best Buy recently, and saw a nice little white colored plastic computer under the Google logo. It was the Acer CB3-111 that had Intel Baytrail processor and 2GB of Ram. The specs were nothing to be proud of, however after a few minutes of usage I decided to get it for myself. Here is what I love about it:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;b&gt;Battery Life&lt;/b&gt;: This is one of the biggest reason that got me to buy a Chromebook. The label on the one I bought said it had a battery life of 8 hours, which I was kind of skeptical about. However after bringing it home and using it, I was easily able to get that 8 hours even in full brightness with moderate to heavy usage. With medium brightness (full brightness is too bright), I was able to get around 10-14 hours which was insane for a computer. When I bought my other computer, a Lenovo U530 which had an advertised battery life of 10 hours, I was highly disappointed when in real life usage I got only around 2 hours, so the Chromebook&#39;s battery life was a big surprise to me.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trackpad and Gestures&lt;/strong&gt;: This is one of the most underrated features of most Chromebooks. The trackpad on my Acer CB3 is big and tracks movements and gestures very good. This is the only thing close to Macbook&#39;s trackpad that I have seen on the market. The gestures to switch tabs and go back and forth work really well and I have been a lot more productive since I started using them.
+
+&lt;br&gt;&lt;br&gt;
+&lt;img src=&#34;http://localhost:1313/blog/blog/img/acer.jpg&#34;/&gt;
+&lt;br&gt;&lt;br&gt;
+
+&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: I am sure people are going to argue with me on this one, but this Chromebook is blazing fast. Even though it has a nifty little Intel Celeron N2830 processor which does not do that well in &lt;a href=&#34;http://www.cpubenchmark.net/cpu.php?cpu=Intel+Celeron+N2830+%40+2.16GHz&#34; target=&#34;_blank&#34;&gt;benchmarks&lt;/a&gt;, I was surprised to see how well it did in real life. I never experienced any lags or delays even when I had 30+ tabs open at once. Even 1080p videos played nice and smooth and I could do pretty much everything I did on the other computer easily without no lags or delays, everything just worked.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Concept of Cloud&lt;/strong&gt;: As someone who uses Google services for a lot of things, this Chromebook made me feel at home. Google Drive just worked, my email with Google Apps just worked, and pretty much everything I did on my other computer which is a lot more powerful just worked without a lot of configuration. As soon as i signed in to Chrome, my extensions, password, bookmarks and history just synced over right away. Everything I did was online, and I never felt like I missed out on anything because of Chrome OS. I am a developer and initially I bought this thinking it would be useful for on the go stuff, taking notes at college, and generally accessing things on the go, but recently I have started developing on it. Yes, you read that right, I started developing on a Chromebook. If you are an Android Developer, or lets say Windows Mobile developer, this is oviously not going to work for you. But for a full stack web developer, all I needed to get my development going on a Chromebook was download &lt;a href=&#34;https://chrome.google.com/webstore/detail/secure-shell/pnhechapfaindjhompbnflcldabbghjo?hl=en&#34; target=&#34;_blank&#34;&gt;this SSH Client&lt;/a&gt; for Chrome and setup a virtual server from a VPS provider like &lt;a href=&#34;https://neximweb.com/&#34; target=&#34;_blank&#34;&gt;Nexim Web Hositng&lt;/a&gt; for developement. Then I just SSH&#39;d into the box and used Vim for development. Oviously you can use online IDE&#39;s like Koding or Nitrous.IO or Cloud9, however since I used to use Vim for the task before I even got the Chromebook, I did not have to change anything.&lt;/li&gt;
+&lt;li&gt;&lt;b&gt;Applications and Extensions&lt;/b&gt;: When I was using Windows or even Ubuntu, I had to go looking around the web for the right tool to use and had to try a bunch of stuff before finding out which worked the best for me. Chrome OS solves this by making all the applications available on the Chrome Web Store just like in Android or iOS. Being able to see reviews and and comments on the apps really helps, and the best rated and recommended app shows up on the top of the search list which is a huge plus. I needed an app to remotely connect to my server, and found a couple of RDP clients that just worked. Even though Chrome Web Store is relatively new, the number of applications available is growing everyday and I haven&#39;t had trouble finding anything I wanted on the web store. If I have to run Windows applications, I just connect to my Windows computer using Chrome remote access and use it just like it was using my the other computer itself.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Overall, I am very happy with my purchase and I feel like with the upcoming support for Android applications it is going to get even better. All companies are moving their services to the web (even Microsoft moved Office to the web recently) and Chromebooks are the perfect thin clients for the web that just work. They are definitely not for everyone but for I feel like they would be suitable for a large number of people that just need a browser for their tasks. With the variety of specs and options available for Chromebooks nowadays, finding the perfect one to suite your needs is not going to be a difficult task.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Google Cloud App Engine Review, Why Choose It? Because It&#39;s Awesome!</title>
+      <link>http://localhost:1313/blog/google-cloud-app-engine-review-why-choose-it-because-its-awesome/</link>
+      <pubDate>Sat, 10 Jan 2015 00:00:00 +0000</pubDate>
+      <author>kaushal@subedi.co (Kaushal Subedi)</author>
+      <guid>http://localhost:1313/blog/google-cloud-app-engine-review-why-choose-it-because-its-awesome/</guid>
+      <description>&lt;p&gt;Being a full stack web developer is not easy. You not only have to worry about developing the application itself, but you also have to worry about managing the server stack, implementing a high availability system, configuring a backup system, creating a deployment system and a lot more. While having the knowledge of all these things is good, having to do these every time you start a project can be annoying, specially if it is just a small side project.&lt;/p&gt;
+
+&lt;p&gt;I have worked on big and small projects where I have setup a full high availability system with a custom CDN network and auto scaling on a well known cloud provider&amp;rsquo;s infrastructure, and let me tell you, doing all of this might sound easy to some of you but the process takes a really long time and configuring everything just right takes a lot of work. While this might not be a big deal for a big budget project, this might be the deal breaker for a smaller one. Recently, there has been a rise of a new kind of service in the hosting world, called PAAS. PAAS stands for Platform As A Service and if you have never heard that term before, I would highly suggest looking it up. Basically, a PAAS will let you deploy an application without having to worry about the server management side of things. Depending on what PAAS you choose, they have features like Auto Scaling, easy deployment etc. They are more expensive than traditional Cloud Servers (or VPS&amp;rsquo;s) but will save you a lot of time and money in the long run.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/blog/blog/img/google-datacenter.jpg&#34;/&gt;&lt;/p&gt;
+
+&lt;p&gt;While &lt;a href=&#34;https://www.heroku.com/&#34; target=&#34;_blank&#34;&gt;Heroku&lt;/a&gt; is undoubtedly the most popular PAAS out there, &lt;a href=&#34;https://cloud.google.com/appengine/docs&#34; target=&#34;_blank&#34;&gt;Google App Engine&lt;/a&gt; is a hidden gem in the PAAS world that a lot of developers I know have not even thought about using. While I hadn&amp;rsquo;t used it for a while since it&amp;rsquo;s name was ruined right when it was released because of issues with uptime, deployment and more, I decided to try it again recently, and fell in love. Google App Engine is a part of Google&amp;rsquo;s suite of Cloud Hosting tools, which lets you easily deploy and host applications created in one of the four supported languages, Java, Python, PHP and my favorite &lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;Golang&lt;/a&gt;. While the last two are still in Beta, I have had no problems with them so far.&lt;/p&gt;
+
+&lt;p&gt;So why did I just call Google Cloud Platform Awesome in the title of this post? There are a lot of reasons:&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;1) Ease of Use&lt;/h4&gt;
+Google Cloud Platform is literally the easiest to learn and use PAAS that I have used. While I am familiar with Heroku, Appfog and a few more, in my opinion, Google App Engine was the easiest to deploy to. After setting up the SDK on my computer after following very easy to read instructions on their website, all I had to do was write a configuration file, and run &lt;em&gt;goapp deploy&lt;/em&gt; to  deploy my Golang application. No more Puppet configurations, no more Dockerfiles and no more custom shell scripts, the tools that were included in the SDK did everything for me. The SDK (at least for Golang) came with a &lt;em&gt;serve&lt;/em&gt; command that would run a local server that would allow you to develop your application locally before deploying. And the best part was they even took care of tiny little things like recompiling the application and reloading the webserver every time a file changed.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;2) Pricing&lt;/h4&gt;
+The pricing of Google App Engine is really competitively priced and is reasonable. I am not going to post the pricing information here since it changes a lot, but you can use their &lt;a href=&#34;https://cloud.google.com/products/calculator/&#34; target=&#34;_blank&#34;&gt;pricing calculator&lt;/a&gt; to figure out the current rates. Oh and did I mention they even have a free tier that is more than suitable for most small side projects?
+&lt;h4&gt;3) Complete Management &amp;amp; Lot&amp;rsquo;s of Features&lt;/h4&gt;
+Google App Engine completely removes server management from your todo list (sorry system administrators). It automatically does auto scaling and creates new instances as needed, it automatically handles high availability, it automatically distributes your application to Google&amp;rsquo;s huge CDN network so that your service works really fast from anywhere in the globe ( side note : Google&amp;rsquo;s CDN is the best out of all the CDN&amp;rsquo;s I have had experience with so far) and a lot more. You are only charged for the resources you use and you don&amp;rsquo;t have to worry about your service crashing because it just got to the front page of reddit.  You also do not have to worry about manually updating the server stack or monitoring the uptime or anything like that. You can also use Google Cloud&amp;rsquo;s Datastore, Memcached and Cloud SQL if you want those to be hosted and managed by Google as well.&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;4) Google&amp;rsquo;s Infrastructure&lt;/h4&gt;
+It is no new news that Google is the largest and most visited website in the world. Despite being that, all of their services work really fast and realiably from anywhere in the globe. This must mean something right? Yes, Google has a vast infrastructure distributed throughout the world, and with Google App Engine your applications can leverage the power of their infrastructure. I do not know the exact numbers on how many datacenters they have but a quick Google search should give you an idea of how big their infrastructure is. Large companies like SnapChat, Best Buy, Coca Cola etc trust and use Google App Engine as well. While there had been reports of downtimes and reliability issues in the past, after my tests and new reports from other users, I feel like Google would be the company that I can rely the most (after all I use Google for emails, domains, live chat, video calling, phone and a lot of other things).&lt;/p&gt;
+
+&lt;p&gt;&lt;h4&gt;5) True Cloud&lt;/h4&gt;
+You see a lot of companies nowadays selling &amp;ldquo;Cloud&amp;rdquo; servers, but have you every wondered how many of them are true clouds? (Hello DigitalOcean). By definition, Cloud Computing means leveraging the power of distributed servers for different purposes, but nowadays there has been a huge rise in the amount of companies that advertise as being cloud when they are just normal Virtual Machines that only reside on one node (Hello Again DigitalOcean). To leverage the power of true cloud, the service must have high availability and should be able to scale as needed. Google App Engine not only has these things, it has ton&amp;rsquo;s of other things like automatic CDN (Content Delivery Network) distributing which make it fit more on the definition of Cloud Computing. Most PAAS do these but so far Google&amp;rsquo;s is the one I&amp;rsquo;ve seen that has the most features of them all.&lt;/p&gt;
+
+&lt;p&gt;While Google App Engine does have it&amp;rsquo;s little quirks like support for only 4 programming languages, usage limitations etc., if your application does not demand more than what it offers and can run under those restrictions, it is the perfect platform for deploying it. And pretty much all PAAS provider&amp;rsquo;s have the limitations (some more than others) that Google&amp;rsquo;s platform has in place. Overall I am really satisfied with my experience so far, and I am going to be moving a lot of my applications over soon. Let me know what you think about Google App Engine, do you think Google App Engine might help you with easier appliation developement?&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Stopping / Starting / Rebooting / Migrating Multiple (All) OpenVZ Containers In One Command</title>
+      <link>http://localhost:1313/blog/stopping-/-starting-/-rebooting-/-migrating-multiple-all-openvz-containers-in-one-command/</link>
+      <pubDate>Sat, 22 Nov 2014 00:00:00 +0000</pubDate>
+      <author>kaushal@subedi.co (Kaushal Subedi)</author>
+      <guid>http://localhost:1313/blog/stopping-/-starting-/-rebooting-/-migrating-multiple-all-openvz-containers-in-one-command/</guid>
+      <description>&lt;p&gt;Working as a systems administrator, there are many times where you want to automate things so that you don&amp;rsquo;t have to do them manually. A lot of times I am working with OpenVZ nodes, I run into situations where I have to run a command in all vm&amp;rsquo;s or reboot all vm&amp;rsquo;s (don&amp;rsquo;t reboot all in production node). Here is a simple linux command that will find all openvz vm&amp;rsquo;s and reboot / restart or do anything with it.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Reboot All Containers&lt;/b&gt;
+&lt;div class=&#34;postContent&#34;&gt;
+&lt;pre&gt;for VE in $(vzlist -Ha -o veid); do vzctl restart $VE; done&lt;/pre&gt;
+&lt;b&gt;Start All Containers&lt;/b&gt;
+&lt;pre&gt;for VE in $(vzlist -Ha -o veid); do vzctl start $VE; done&lt;/pre&gt;
+&amp;nbsp;&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Migrate All Containers&lt;/b&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;
+&amp;nbsp;
+&lt;div class=&#34;postContent&#34;&gt;
+&lt;pre&gt;for VE in $(vzlist -Ha -o veid); do vzmigrate &amp;ndash;remove-area no &amp;ndash;keep-dst [NODE_IP] $VE; done
+&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div class=&#34;postBookmarks&#34;&gt; Just replace the [NODE_IP] with the ip of the node that you want to migrate them to. Make sure you have keys on the node that you are migrating to so that it doesn&amp;rsquo;t repititively ask you for password.&lt;/div&gt;
+&lt;div class=&#34;postBookmarks&#34;&gt;&lt;/div&gt;
+&lt;div class=&#34;postBookmarks&#34;&gt;You can pretty much do anything with all the VM&amp;rsquo;s by following the following format:&lt;/div&gt;
+&lt;div class=&#34;postBookmarks&#34;&gt;
+&lt;div class=&#34;postContent&#34;&gt;
+&lt;pre&gt;for VE in $(vzlist -Ha -o veid); do [COMMAND]; done
+&lt;/pre&gt;
+Just replace the [COMMAND] with the command you want to run for each VM. Use $VE to get the VEID of the container.&lt;/p&gt;
+
+&lt;p&gt;&lt;/div&gt;
+&lt;/div&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Node.js Sucks! Here&#39;s Why</title>
+      <link>http://localhost:1313/blog/node.js-sucks-heres-why/</link>
+      <pubDate>Wed, 15 Oct 2014 00:00:00 +0000</pubDate>
+      <author>kaushal@subedi.co (Kaushal Subedi)</author>
+      <guid>http://localhost:1313/blog/node.js-sucks-heres-why/</guid>
+      <description>&lt;p&gt;If you are a web developer, or any developer that has been catching up with latest technologies for that matter, I am sure you know about Node.js. It is a relatively new programming language built on top of Google&amp;rsquo;s V8 Javascript parsing engine that allows you to build cross platform applications. Node.js is widely used as a backend language in a lot of web applications and a lot of big name companies like Paypal have adapted it as well. It is definitely one of the fastest growing programming languages out there right now. Now you might be wondering how it can suck if a lot of big companies are using it. I recently had to use Node.js for few of my projects, and here are some reasons why I think it sucks:&lt;/p&gt;
+
+&lt;p&gt;&lt;span style=&#34;color: #ff0000;&#34;&gt;&lt;em&gt;Disclaimer: All the things I am going to mention are my personal opinions and I may have used some strong language to express my views. You can argue all day about how the things I have mentioned are invalid or are based on personal opinion, but the fact is they are my personal opinions and everyone has rights to think their own way.&lt;/em&gt;&lt;/span&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;1) Callback hell is real: &lt;/strong&gt;If you are familiar with Node.js, I am pretty sure you are familiar with callback hell or have at least heard about it. Node.js is built to work asynchronously which means unlike traditional programming languages where you have to wait for one task to finish to start the next one, you pass callbacks (which are basically just functions) that will be executed when the required task is done. If you are new and have never used Node.js this might be confusing to you, but if you have used Node.js then you most likely know how difficult it can be to manage callbacks. Most of the time, you end up with a tree of callbacks. This makes it extremely easy to get lost in the code and makes code reviewing difficult. There are ways to fight callback hell, and &lt;a title=&#34;http://callbackhell.com/&#34; href=&#34;http://callbackhell.com/&#34; target=&#34;_blank&#34;&gt;&lt;a href=&#34;http://callbackhell.com/&#34;&gt;http://callbackhell.com/&lt;/a&gt;&lt;/a&gt; does a good job of explaining them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;2) Debugging is a bitch:&lt;/strong&gt; This is mostly a personal opinion, but I found Node.js hard to debug than other languages I have used. It is really easy to get  lost in the code and even debugging simple things take long time.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;3) Javascript was not made for server side: &lt;/strong&gt;Javascript is a popular widely used language that has been around for 20 years. When it was first created in 1995, it only took 10 hours for the creator to create it. This doesn&amp;rsquo;t mean the Javascript that was around in 1995 is the same as Javascript now, it has come a long way since then, but there are still things about Javascript that annoy the hell out of developers. It is a weak typed language which means debugging things is going to be a bit more difficult compared to strong typed languages. Javascript is only popular because it became the language of the web and almost every browser supports it. Using Javascript to program on server side feels like using a coffee cup to drink water, something about it doesn&amp;rsquo;t feel right. With Javascript replacements like &lt;a href=&#34;https://www.dartlang.org/&#34; target=&#34;_blank&#34;&gt;Google&amp;rsquo;s Dart&lt;/a&gt; gaining popularity for the client side, I can see Javascript slowly fading from he development scene.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;4) Same code on both server and client side doesn&amp;rsquo;t really work: &lt;/strong&gt;One of the reasons I see developers switching to Node.js is because of &amp;ldquo;Javascript Everywhere&amp;rdquo; theory. I have built numerous apps using Node.js and I almost never had a place where I was able to share code between the server side and client side. If this was going to be your reason to start using Node.js, don&amp;rsquo;t.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;5) The packages aren&amp;rsquo;t that good: &lt;/strong&gt;I love npm. That is probably the thing that i love the most about Node.js.Npm makes it extremely easy to install third party packages that you can use from/with the app you are building. But its not all rainbows and cookies with npm, what I found is almost half of the packages I find are either abandoned by their maintainers or are not well documented (heck, the biggest websocket library socket.io has a horrible documentation) or are coded poorly. There are some really good packages that are frequently updated and maintained, but having to search through packages to find the right thing gets frustrating.&lt;/p&gt;
+
+&lt;p&gt;So what now? Well I said all I had to say about Node.js. It is not a bad concept at all, but using Javascript on both server side and client side, companies could save money / time on development projects. But even though the concept is great, the implementation could have been better. Even developers that have maintained popular Node.js packages like &lt;a href=&#34;https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b&#34; target=&#34;_blank&#34;&gt;TJ, the maintainer of Express.js&lt;/a&gt; have left the Node.js ecosystem because of the issues. Personally, I would say stay away from Node.js for now, at least till it gets a little more mature. If you are thinking about learning a new language, try &lt;a href=&#34;https://golang.org/&#34; target=&#34;_blank&#34;&gt;GoLang &lt;/a&gt;by Google. I have been experimenting with it lately and it&amp;rsquo;s fantastic so far.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

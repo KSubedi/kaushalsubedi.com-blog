@@ -1,0 +1,41 @@
+baseurl = "https://kaushalsubedi.com/blog/"
+languageCode = "en-us"
+title = "Kaushal Subedi's Blog"
+theme = "hyde-y"
+copyright = "© 2015 Kaushal Subedi, All Rights Reserved"
+paginate = 10
+paginatePath = "page"
+disqusShortname = "KSubedi"
+[permalinks]
+    post = "/:slug/"
+    code = "/:slug/"
+[author]
+    name = "Kaushal Subedi"
+    email = "kaushal@subedi.co"
+
+[params]
+    # You can use markdown here.
+    brand = "Kaushal's Blog"
+    topline = "Random things from the head of a developer."
+    footline = "<i class='fa fa-heart'></i> Built in Colorado"
+
+    # Sidebar position
+    # false, true, "left", "right"
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "Blog"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+
+    # Google Analytics.
+    googleAnalytics = "Your Google Analytics tracking code"
+
+    # Sidebar social links.
+    github = "KSubedi" # Your Github profile ID
+    googleplus = "KaushalSubedi" # Your Google+ profile ID
+    facebook = "ksub3di" # Your Facebook profile ID
+    twitter = "KSubediTweet" # Your Twitter profile ID
