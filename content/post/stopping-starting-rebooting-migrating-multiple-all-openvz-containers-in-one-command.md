@@ -1,7 +1,7 @@
 +++
 date = "2014-11-22"
 title = "Stopping / Starting / Rebooting / Migrating Multiple (All) OpenVZ Containers In One Command"
-
+slug = "stopping-starting-rebooting-migrating-multiple-all-openvz-containers-in-one-command"
 +++
 
 Working as a systems administrator, there are many times where you want to automate things so that you don't have to do them manually. A lot of times I am working with OpenVZ nodes, I run into situations where I have to run a command in all vm's or reboot all vm's (don't reboot all in production node). Here is a simple linux command that will find all openvz vm's and reboot / restart or do anything with it.

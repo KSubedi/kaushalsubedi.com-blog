@@ -1,7 +1,7 @@
 +++
 date = "2014-10-15"
 title = "Node.js Sucks! Here's Why"
-
+slug = "node-js-sucks-heres-why"
 +++
 
 If you are a web developer, or any developer that has been catching up with latest technologies for that matter, I am sure you know about Node.js. It is a relatively new programming language built on top of Google's V8 Javascript parsing engine that allows you to build cross platform applications. Node.js is widely used as a backend language in a lot of web applications and a lot of big name companies like Paypal have adapted it as well. It is definitely one of the fastest growing programming languages out there right now. Now you might be wondering how it can suck if a lot of big companies are using it. I recently had to use Node.js for few of my projects, and here are some reasons why I think it sucks:

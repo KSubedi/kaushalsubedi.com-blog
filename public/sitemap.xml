@@ -2,33 +2,33 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://localhost:1313/blog/</loc>
+    <loc>/blog/</loc>
     <lastmod>2015-11-08T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/</loc>
+    <loc>/blog/2015/11/08/visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor/</loc>
     <lastmod>2015-11-08T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/why-i-love-my-new-acer-cb3-111-chromebook/</loc>
+    <loc>/blog/2015/02/19/why-i-love-my-new-acer-cb3-111-chromebook/</loc>
     <lastmod>2015-02-19T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/google-cloud-app-engine-review-why-choose-it-because-its-awesome/</loc>
+    <loc>/blog/2015/01/10/google-cloud-app-engine-review-why-choose-it-because-its-awesome/</loc>
     <lastmod>2015-01-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/stopping-/-starting-/-rebooting-/-migrating-multiple-all-openvz-containers-in-one-command/</loc>
+    <loc>/blog/2014/11/22/stopping-starting-rebooting-migrating-multiple-all-openvz-containers-in-one-command/</loc>
     <lastmod>2014-11-22T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://localhost:1313/blog/node.js-sucks-heres-why/</loc>
+    <loc>/blog/2014/10/15/node-js-sucks-heres-why/</loc>
     <lastmod>2014-10-15T00:00:00+00:00</lastmod>
   </url>
   

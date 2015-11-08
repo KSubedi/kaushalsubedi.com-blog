@@ -1,13 +1,13 @@
-baseurl = "https://kaushalsubedi.com/blog/"
+baseurl = "/blog/"
 languageCode = "en-us"
 title = "Kaushal Subedi's Blog"
 theme = "hyde-y"
 copyright = "© 2015 Kaushal Subedi, All Rights Reserved"
 paginate = 10
 paginatePath = "page"
-disqusShortname = "KSubedi"
+disqusShortname = "ksubedi"
 [permalinks]
-    post = "/:slug/"
+    post = "/:year/:month/:day/:slug/"
     code = "/:slug/"
 [author]
     name = "Kaushal Subedi"
@@ -32,7 +32,7 @@ disqusShortname = "KSubedi"
     highlight = "default"
 
     # Google Analytics.
-    googleAnalytics = "Your Google Analytics tracking code"
+    googleAnalytics = "UA-48832100-1"
 
     # Sidebar social links.
     github = "KSubedi" # Your Github profile ID

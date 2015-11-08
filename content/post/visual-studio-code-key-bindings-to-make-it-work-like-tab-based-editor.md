@@ -1,7 +1,7 @@
 +++
 date = "2015-11-08"
 title = "Visual Studio Code Key Bindings To Make It Work Like Tab Based Editor"
-
+slug = "visual-studio-code-key-bindings-to-make-it-work-like-tab-based-editor"
 +++
 
 Microsoft recently released a new open source text editor called <a href="https://code.visualstudio.com" target="_blank">Visual Studio Code</a>. It is based on Github's Electron platform and is a cross platform application that runs on Windows, Linux and Mac OS X which is surprising considering it came from Microsoft. Surprisingly, it is a great editor when it comes to working with JavaScript and Node.js and basically anything front end (React, Angular...).

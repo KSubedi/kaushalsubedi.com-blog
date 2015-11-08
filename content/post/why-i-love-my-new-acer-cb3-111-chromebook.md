@@ -1,7 +1,7 @@
 +++
 date = "2015-02-19"
 title = "Why I love my new Acer CB3-111 Chromebook"
-
+slug = "why-i-love-my-new-acer-cb3-111-chromebook"
 +++
 
 <p>So I recently got a new Chromebook. If you do not know what a Chromebook is, it is basically a laptop that can run Chrome browser + some more. I was at a Best Buy recently, and saw a nice little white colored plastic computer under the Google logo. It was the Acer CB3-111 that had Intel Baytrail processor and 2GB of Ram. The specs were nothing to be proud of, however after a few minutes of usage I decided to get it for myself. Here is what I love about it:</p>

@@ -1,7 +1,7 @@
 +++
 date = "2015-01-10"
 title = "Google Cloud App Engine Review, Why Choose It? Because It's Awesome!"
-
+slug = "google-cloud-app-engine-review-why-choose-it-because-its-awesome"
 +++
 
 Being a full stack web developer is not easy. You not only have to worry about developing the application itself, but you also have to worry about managing the server stack, implementing a high availability system, configuring a backup system, creating a deployment system and a lot more. While having the knowledge of all these things is good, having to do these every time you start a project can be annoying, specially if it is just a small side project.
