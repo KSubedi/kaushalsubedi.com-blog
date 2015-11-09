@@ -1,4 +1,4 @@
-baseurl = "/blog/"
+baseurl = "https://kaushalsubedi.com/blog/"
 languageCode = "en-us"
 title = "Kaushal Subedi's Blog"
 theme = "hyde-y"
