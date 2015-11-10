@@ -1,188 +1,84 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
 <head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <title>Node.js Sucks! Here&#39;s Why  &middot; Kaushal Subedi&#39;s Blog</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="HandheldFriendly" content="True">
-<meta name="MobileOptimized" content="320">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-
-
-<meta name="description" content="" />
-
-<meta name="keywords" content="">
-
-<link rel="author" href="http://plus.google.com/+KaushalSubedi">
-
-
-<meta property="og:title" content="Node.js Sucks! Here&#39;s Why  &middot; Kaushal Subedi&#39;s Blog ">
-<meta property="og:site_name" content="Kaushal Subedi&#39;s Blog"/>
-<meta property="og:url" content="https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/" />
-<meta property="og:locale" content="en-us">
-
-
-<meta property="og:type" content="article" />
-<meta property="og:description" content=""/>
-<meta property="og:article:published_time" content="2014-10-15T00:00:00Z" />
-<meta property="og:article:modified_time" content="2014-10-15T00:00:00Z" />
 
   
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>Node.js Sucks! Here&#39;s Why &middot; Kaushal Subedi</title>
 
   
-<meta name="twitter:card" content="summary" />
-<meta name="twitter:site" content="@KSubediTweet" />
-<meta name="twitter:creator" content="@KSubediTweet" />
-<meta name="twitter:title" content="Node.js Sucks! Here&#39;s Why" />
-<meta name="twitter:description" content="" />
-<meta name="twitter:url" content="https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/" />
-<meta name="twitter:domain" content="https://kaushalsubedi.com/blog/">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/poole.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/poole-overrides.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde-overrides.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde-x.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/highlight/sunburst.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://kaushalsubedi.com/blog/touch-icon-144-precomposed.png">
+  <link href="https://kaushalsubedi.com/blog/favicon.png" rel="icon">
+
+  
+  
+  
   
 
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "Article",
-    "headline": "Node.js Sucks! Here\x27s Why",
-    "author": {
-      "@type": "Person",
-      "name": "http://profiles.google.com/+KaushalSubedi?rel=author"
-    },
-    "datePublished": "2014-10-15",
-    "description": "",
-    "wordCount":  850 
-  }
-</script>
-
-
-
-<link rel="canonical" href="https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/" />
-
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://kaushalsubedi.com/blog/touch-icon-144-precomposed.png">
-<link href="https://kaushalsubedi.com/blog/favicon.png" rel="icon">
-
-<meta name="generator" content="Hugo 0.14" />
-
-  <!--[if lt IE 9]>
-<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-<![endif]-->
-
-<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/font-awesome.min.css">
-<link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/style.css">
-<link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/highlight/default.css">
-
+  <meta name="description" content="">
+  <meta name="keywords" content="">
   
 </head>
-<body>
-  <main id="main-wrapper" class="container main_wrapper has-sidebar">
-    <header id="main-header" class="container main_header">
-  <div class="container brand">
-  <div class="container title h1-like">
-  <a class="baselink" href="https://kaushalsubedi.com/blog/">
-  Kaushal&rsquo;s Blog
+<body class="theme-base-4b">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Kaushal Subedi</h1>
+      <p class="lead">Random things from the head of a web developer.</p>
+    </div>
 
-</a>
-
-</div>
-
-  
-<div class="container topline">
-  
-  Random things from the head of a developer.
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/">Home</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/blog/">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/projects">Projects</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/contact">Contact</a></li>
 
 
-</div>
+      
+    </ul>
 
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="KSubedi"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="KaushalSubedi"><i class="fa fa-google-plus-square fa-3x"></i></a>
+      <a href="ksub3di"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="KSubediTweet"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
 
-</div>
+    
 
-  <nav class="container nav primary no-print">
-  
-
-
-  
-<a href="https://kaushalsubedi.com/" title="Go to Homepage">Home</a>
-
-<a href="https://kaushalsubedi.com/blog/" title="Go to the Blog">Blog</a>
-
-<a href="https://kaushalsubedi.com/projects" title="Go to Projects Page">Projects</a>
-
-<a href="https://kaushalsubedi.com/contact" title="Go To Contact Area">Contact</a>
-
-
-</nav>
-
-<div class="container nav secondary no-print">
-  
-<a id="contact-link-email" class="contact_link" href="mailto:kaushal@subedi.co">
-  <span class="fa fa-envelope-square"></span><span>email</span></a>
-
-
-
-<a id="contact-link-github" class="contact_link" href="https://github.com/KSubedi">
-  <span class="fa fa-github-square"></span><span>github</span></a>
-
-
-
-
-
-
-
-<a id="contact-link-googleplus" class="contact_link" href="https://plus.google.com/u/0/+KaushalSubedi">
-  <span class="fa fa-google-plus-square"></span><span>google+</span></a>
-
-
-
-<a id="contact-link-facebook" class="contact_link" href="https://www.facebook.com/ksub3di">
-  <span class="fa fa-facebook-square"></span><span>facebook</span></a>
-
-
-
-<a id="contact-link-twitter" class="contact_link" href="https://twitter.com/KSubediTweet">
-  <span class="fa fa-twitter-square"></span><span>twitter</span></a>
-
-
-
-
-
-
-
-  
+    <p>&copy; 2015 Kaushal Subedi<br/>
+    All Rights Reserved</p>
+  </div>
 </div>
 
 
-  
-
-</header>
-
-
-<article id="main-content" class="container main_content single">
-  <header class="container hat">
-  <h1>Node.js Sucks! Here&#39;s Why
-</h1>
-
-  <div class="metas">
-<time datetime="2014-10-15">15 Oct, 2014</time>
-
-
-  
-  &middot; Read in about 4 min
-  &middot; (850 Words)
-  <br>
-  
-
-
-</div>
-
-</header>
-
-  <div class="container content">
-  <p>If you are a web developer, or any developer that has been catching up with latest technologies for that matter, I am sure you know about Node.js. It is a relatively new programming language built on top of Google&rsquo;s V8 Javascript parsing engine that allows you to build cross platform applications. Node.js is widely used as a backend language in a lot of web applications and a lot of big name companies like Paypal have adapted it as well. It is definitely one of the fastest growing programming languages out there right now. Now you might be wondering how it can suck if a lot of big companies are using it. I recently had to use Node.js for few of my projects, and here are some reasons why I think it sucks:</p>
+<div class="content container">
+  <div class="post">
+    <h1>Node.js Sucks! Here&#39;s Why</h1>
+    <span class="post-date">Oct 15, 2014 &middot; 4 minute read &middot; <a href="https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/#disqus_thread">Comments</a>
+    </span>
+    <p>If you are a web developer, or any developer that has been catching up with latest technologies for that matter, I am sure you know about Node.js. It is a relatively new programming language built on top of Google&rsquo;s V8 Javascript parsing engine that allows you to build cross platform applications. Node.js is widely used as a backend language in a lot of web applications and a lot of big name companies like Paypal have adapted it as well. It is definitely one of the fastest growing programming languages out there right now. Now you might be wondering how it can suck if a lot of big companies are using it. I recently had to use Node.js for few of my projects, and here are some reasons why I think it sucks:</p>
 
 <p><span style="color: #ff0000;"><em>Disclaimer: All the things I am going to mention are my personal opinions and I may have used some strong language to express my views. You can argue all day about how the things I have mentioned are invalid or are based on personal opinion, but the fact is they are my personal opinions and everyone has rights to think their own way.</em></span></p>
 
@@ -198,120 +94,44 @@
 
 <p>So what now? Well I said all I had to say about Node.js. It is not a bad concept at all, but using Javascript on both server side and client side, companies could save money / time on development projects. But even though the concept is great, the implementation could have been better. Even developers that have maintained popular Node.js packages like <a href="https://medium.com/code-adventures/farewell-node-js-4ba9e7f3e52b" target="_blank">TJ, the maintainer of Express.js</a> have left the Node.js ecosystem because of the issues. Personally, I would say stay away from Node.js for now, at least till it gets a little more mature. If you are thinking about learning a new language, try <a href="https://golang.org/" target="_blank">GoLang </a>by Google. I have been experimenting with it lately and it&rsquo;s fantastic so far.</p>
 
+  </div>
+  <div id="disqus_thread"></div>
 </div>
 
 
-  <footer class="container">
-  <div class="container navigation no-print">
-  <h2>Navigation</h2>
-  
-  
-
-    
-
-    
-    <a class="next" href="https://kaushalsubedi.com/blog/2014/11/22/stopping-starting-rebooting-migrating-multiple-all-openvz-containers-in-one-command/" title="Stopping / Starting / Rebooting / Migrating Multiple (All) OpenVZ Containers In One Command">
-      Next
-    </a>
-    
-
-  
-
-
-</div>
-
-  <div class="container comments">
-  <h2>Comments</h2>
-  
-<div id="disqus_thread"></div>
 <script type="text/javascript">
-  (function() {
-    
-    
-    if (window.location.hostname == "localhost")
-      return;
+var disqus_shortname = "ksubedi";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
 
-    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
-    dsq.src = '//ksubedi.disqus.com/embed.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
+
+
+<script type="text/javascript">
+    var disqus_shortname = "ksubedi";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-
-
-</div>
-
-</footer>
-
-</article>
-      <footer id="main-footer" class="container main_footer">
-  
-
-  <div class="container nav foot no-print">
-  
-
-  <a class="toplink" href="#">back to top</a>
-
-</div>
-
-  <div class="container credits">
-  
-<div class="container footline">
-  
-  <i class='fa fa-heart'></i> Built in Colorado
-
-
-</div>
-
-
-  
-<div class="container copyright">
-  
-  © 2015 Kaushal Subedi, All Rights Reserved
-
-
-</div>
-
-
-</div>
-
-</footer>
-
-    </main>
-    
-<script type="text/javascript">
-  (function() {
-    
-    
-    if (window.location.hostname == "localhost")
-      return;
-
-    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
-    dsq.src = '//ksubedi.disqus.com/count.js';
-    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-  })();
-</script>
-
-
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
 <script src="https://kaushalsubedi.com/blog/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
 
-
-
 <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-48832100-1', 'auto');
-  ga('send', 'pageview');
-
+  var _gaq=[['_setAccount','UA-48832100-1'],['_trackPageview']];
+  (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+  g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+  s.parentNode.insertBefore(g,s)}(document,'script'));
 </script>
 
-
-    
-  </body>
+</body>
 </html>
 
