@@ -1,0 +1,29 @@
++++
+date = "2015-11-10T11:59:27-07:00"
+title = "Go (Golang) Sucks! Here's Why!"
+slug = "golang-sucks-heres-why"
++++
+
+Here we go again, I know what you might be thinking. "This guy was ranting about how [Node.js Sucks](/blog/2014/10/15/node-js-sucks-heres-why/) a while ago and now he is on about Golang." - sounds like what you were thinking?
+
+Although I loved the move from Node.js to Golang initially and started using Go for pretty much everything I built, I soon found out about its con's and ran into issues I should not have. Here are some of the reasons I think Golang sucks:
+
+ 1. **No Generics Support** : Golang is a great language but it lacks one of the basic features programming languages should have, Generics. While you might argue that it is possible to use `interface`s to do what you want to do with generics, the amount of boilerplate code you have to write will get tedious.
+
+ 2. **Slow JSON Parsing** : JSON is almost becoming the standard data format to transport data between different layers, mostly because its JavaScript native and most client side applications are built using JavaScript. According to [numerous tests](http://stackoverflow.com/questions/29282231/go-json-decoding-is-very-slow-what-would-be-a-better-way-to-do-it) and [benchmarks](https://code.google.com/p/go/issues/detail?id=5683), Golang's JSON parsing is very slow and could cause issues on applications that use a lot of JSON data. So if you were planning on using Golang for backend of your web application, make sure you take this into consideration.
+
+ 3. **Too Much Boilerplate** : Although it might sound like Golang is a short and simple language at first, which it kind of is, there is  still a lot of boilerplate code you have to go through to get things done. The `struct` system works great, however creating structs all over the place might feel tedious compared to something like `Object`s in JavaScript. Even though those two are two different concepts, getting the same thing done in Golang seems to take much more boilerplate work than lets say Node.js or most other languages.
+
+ 4. **Bad Dependency Management** : These days a lot of code is modular, and no one likes to rewrite something that someone else already put out there. While using third party libraries is great, Golang's way of doing that is not so great. Golang uses `URL` based dependency imports, which means you can just do `go get http://github.com/somename/somelibrary` and import it to your package with `import github.com/somename/somelibrary`, there is no way to specify what exact version of the library you want. Since Golang is compiled, you probably don't have to worry about your production app crashing because of some of your dependency updating by itself, you will still have to be careful while distributing the source code so that someone else that tries to compile it doesn't get a version of your dependency that does is not backward compatible with the one you were using originally. Also lack of a central package manager like `npm` does not help in this case (although having one has it's own con's).
+
+ 5. **No Sub Packaging** : Golang allows you to create packages on the root level of your application, but that's about where it stops. You cannot have sub packages which makes modularizing some parts of your application difficult. If you were used to keeping your project structure clean by sperating things into folders (packages in golang) and subfolders, the subfolders part will not work in Golang.
+
+ 6. **Bad Forking Support** : If you are trying to fork a project, things will be a little bit different in Golang. Since Go uses `URL` based packaging structure, you will have to manually rename all the imports from all the files of the package you are forking to match your new `URL` if the project imports other packages from itself. Then when you are done working on it, before you send a pull request, you will have to change everything back again. This can be a pain and even though there are workarounds to this it might not be ovious right away to most people beginning with Golang. I have created a little tool called [gomove](https://github.com/KSubedi/gomove) that should help with this.
+
+Now although all of the issues I mentioned above have workarounds, to a beginner just starting in Golang they might cause some headaches. Hopefully the Golang team will leave the language politics behind and start implementing and fixing things (like generics support) as Go matures. 
+
+A while ago, for some reason I was on this weird quest to find the perfect programming language that I can master and use for everything. Soon, I learnt that no language is perfect and for a reason. Every language is tailored to be used for specific use cases and if language maintaners started focusing on making the language work in every possible scenario, it will turn into a huge mess (im looking at you JavaScript). 
+
+This does not mean I am completely abandoning Golang. Now, I use whatever I feel most productive in for the type of application I am working on. If I am working on a API or simple website, I usually use Node.js since it lets me bootstrap a web based application really quick. If I am working on a command line tool or some networked service, I use Golang. Heck, I even use PHP and Wordpress for some things.
+
+For people who were like me and are looking for that one perfect language to learn and use on everything, stop looking, you are just wasting your time. Just use whatever you feel the most comfortable in and don't hesitate to learn new technologies and languages. You will be much more productive this way, rather than trying to build a house with paper. The big lesson I learn't was to use the right tool for the right job instead of looking for a swiss army knife.
