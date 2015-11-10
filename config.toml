@@ -10,7 +10,7 @@ disqusShortname = "ksubedi"
     post = "/:year/:month/:day/:slug/"
 
 [author]
-    name = "Kaushal Subedi"
+    name = "Kaushal Subedi's Blog"
     email = "kaushal@subedi.co"
 
 [taxonomies]
