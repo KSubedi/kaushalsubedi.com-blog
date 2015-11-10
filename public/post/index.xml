@@ -28,37 +28,39 @@
 
 &lt;p&gt;&lt;strong&gt;Mac&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;[
- {
- &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+[&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
- },
- {
- &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+]&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
- },
- {
- &amp;quot;key&amp;quot;: &amp;quot;cmd+w&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
- }
-]&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+[&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
+    },
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;cmd+shift+]&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
+    },
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;cmd+w&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
+    }
+]
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;strong&gt;Windows / Linux:&lt;/strong&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;code&gt;[
- {
- &amp;quot;key&amp;quot;: &amp;quot;win+shift+[&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
- },
- {
- &amp;quot;key&amp;quot;: &amp;quot;win+shift+]&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
- },
- {
- &amp;quot;key&amp;quot;: &amp;quot;win+w&amp;quot;,
- &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
- }
-]&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;[
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;win+shift+[&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openPreviousWorkingFile&amp;quot;
+    },
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;win+shift+]&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.openNextWorkingFile&amp;quot;
+    },
+    {
+        &amp;quot;key&amp;quot;: &amp;quot;win+w&amp;quot;,
+        &amp;quot;command&amp;quot;: &amp;quot;workbench.files.action.closeFile&amp;quot;
+    }
+]
+&lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;Let me know if you have a better way of doing this or any other suggestions!&lt;/p&gt;
 </description>

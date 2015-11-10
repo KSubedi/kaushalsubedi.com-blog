@@ -14,36 +14,35 @@ After spending a few minutes looking at the <a href="https://code.visualstudio.c
 
 **Mac**
 
-`[
- {
- "key": "cmd+shift+[",
- "command": "workbench.files.action.openPreviousWorkingFile"
- },
- {
- "key": "cmd+shift+]",
- "command": "workbench.files.action.openNextWorkingFile"
- },
- {
- "key": "cmd+w",
- "command": "workbench.files.action.closeFile"
- }
-]`
+    [
+    	{
+    		"key": "cmd+shift+[",
+    		"command": "workbench.files.action.openPreviousWorkingFile"
+    	},
+    	{
+    		"key": "cmd+shift+]",
+    		"command": "workbench.files.action.openNextWorkingFile"
+    	},
+    	{
+    		"key": "cmd+w",
+    		"command": "workbench.files.action.closeFile"
+    	}
+    ]
 
 **Windows / Linux:**
 
-`[
- {
- "key": "win+shift+[",
- "command": "workbench.files.action.openPreviousWorkingFile"
- },
- {
- "key": "win+shift+]",
- "command": "workbench.files.action.openNextWorkingFile"
- },
- {
- "key": "win+w",
- "command": "workbench.files.action.closeFile"
- }
-]`
-
+    [
+    	{
+    		"key": "win+shift+[",
+    		"command": "workbench.files.action.openPreviousWorkingFile"
+    	},
+    	{
+    		"key": "win+shift+]",
+    		"command": "workbench.files.action.openNextWorkingFile"
+    	},
+    	{
+    		"key": "win+w",
+    		"command": "workbench.files.action.closeFile"
+    	}
+    ]
 Let me know if you have a better way of doing this or any other suggestions!
