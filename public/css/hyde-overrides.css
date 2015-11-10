@@ -14,3 +14,20 @@
   list-style: none;
   margin-bottom: 1rem;
 }
+
+/* Sky Blue */
+.theme-base-4b .sidebar {
+  background-color: #4BA8F3;
+}
+.theme-base-4b .sidebar a:hover{
+  text-decoration: none;
+  color: #BFEFFF;
+}
+.theme-base-4b .content a,
+.theme-base-4b .related-posts li a:hover {
+  color: #4BA8F3;
+}
+.theme-base-4b .content a:hover{
+    color: #337ab7;
+    text-decoration: none;
+}

@@ -231,17 +231,6 @@ a.sidebar-nav-item:focus {
   color: #6a9fb5;
 }
 
-/* Sky Blue */
-.theme-base-4b .sidebar {
-  background-color: #4BA8F3;
-}
-.theme-base-4b .content a,
-.theme-base-4b .related-posts li a:hover {
-  color: #4BA8F3;
-}
-
-
-
 /* Magenta */
 .theme-base-0e .sidebar {
   background-color: #aa759f;

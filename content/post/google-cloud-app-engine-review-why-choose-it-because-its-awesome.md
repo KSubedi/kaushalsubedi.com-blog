@@ -19,6 +19,7 @@ Google Cloud Platform is literally the easiest to learn and use PAAS that I have
 
 <h4>2) Pricing</h4>
 The pricing of Google App Engine is really competitively priced and is reasonable. I am not going to post the pricing information here since it changes a lot, but you can use their <a href="https://cloud.google.com/products/calculator/" target="_blank">pricing calculator</a> to figure out the current rates. Oh and did I mention they even have a free tier that is more than suitable for most small side projects?
+
 <h4>3) Complete Management &amp; Lot's of Features</h4>
 Google App Engine completely removes server management from your todo list (sorry system administrators). It automatically does auto scaling and creates new instances as needed, it automatically handles high availability, it automatically distributes your application to Google's huge CDN network so that your service works really fast from anywhere in the globe ( side note : Google's CDN is the best out of all the CDN's I have had experience with so far) and a lot more. You are only charged for the resources you use and you don't have to worry about your service crashing because it just got to the front page of reddit.  You also do not have to worry about manually updating the server stack or monitoring the uptime or anything like that. You can also use Google Cloud's Datastore, Memcached and Cloud SQL if you want those to be hosted and managed by Google as well.
 

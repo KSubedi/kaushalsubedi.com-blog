@@ -18,6 +18,16 @@ disqusShortname = "ksubedi"
     category = "categories"
 
 [params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = true
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "I am a developer based on Boulder, Colorado and I work on Web Applications, Android Applications and more."
+    defaultKeywords = "kaushal,subedi,kaushal subedi,developer,mobile,web application,java,golang,nodejs,html,php,laravel,express,android"
+
+
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
     tagline = "Random things from the head of a web developer."
@@ -29,10 +39,10 @@ disqusShortname = "ksubedi"
     googleAnalytics = "UA-48832100-1"
 
     # Sidebar social links.
-    github = "KSubedi" # Your Github profile ID
-    googleplus = "KaushalSubedi" # Your Google+ profile ID
-    facebook = "ksub3di" # Your Facebook profile ID
-    twitter = "KSubediTweet" # Your Twitter profile ID
+    github = "https://github.com/KSubedi" # Your Github profile ID
+    googleplus = "https://plus.google.com/u/0/+KaushalSubedi" # Your Google+ profile ID
+    facebook = "https://facebook.com/ksub3di" # Your Facebook profile ID
+    twitter = "https://twitter.com/KSubediTweet" # Your Twitter profile ID
 
     # Other social-like sidebar links
     rss = true  # switch to true to enable RSS icon link
