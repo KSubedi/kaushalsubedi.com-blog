@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
+<head>
+  <link href="http://gmpg.org/xfn/11" rel="profile">
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
+
+  <title>State Of JavaScript Developement in 2016 &middot; Kaushal Subedi&#39;s Blog</title>
+
+  
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/poole.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/poole-overrides.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde-overrides.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/hyde-x.css">
+  <link rel="stylesheet" href="https://kaushalsubedi.com/blog/css/highlight/sunburst.css">
+  <link rel="stylesheet" href="https:////fonts.googleapis.com/css?family=Raleway:400,400italic,700">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+  
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://kaushalsubedi.com/blog/touch-icon-144-precomposed.png">
+  <link href="https://kaushalsubedi.com/blog/favicon.png" rel="icon">
+
+  
+  
+  
+  
+
+  <meta name="description" content="I am a developer based on Boulder, Colorado and I work on Web Applications, Android Applications and more.">
+  <meta name="keywords" content="kaushal,subedi,kaushal subedi,developer,mobile,web application,java,golang,nodejs,html,php,laravel,express,android">
+  
+</head>
+<body class="theme-base-4b">
+<div class="sidebar">
+  <div class="container sidebar-sticky">
+    <div class="sidebar-about">
+      
+      <h1>Kaushal Subedi&#39;s Blog</h1>
+      <p class="lead">Random things from the head of a developer.</p>
+    </div>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/">Home</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/blog/">Blog</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/assets/Kaushal-Subedi-Resume.pdf">Resume</a></li>
+      <li class="sidebar-nav-item"><a href="https://kaushalsubedi.com/contact">Contact</a></li>
+
+
+      
+    </ul>
+
+    <ul class="sidebar-nav">
+      <li class="sidebar-nav-item">
+      <a href="https://github.com/KSubedi"><i class="fa fa-github-square fa-3x"></i></a>
+      
+      
+      
+      <a href="https://plus.google.com/u/0/&#43;KaushalSubedi"><i class="fa fa-google-plus-square fa-3x"></i></a>
+      <a href="https://facebook.com/ksub3di"><i class="fa fa-facebook-square fa-3x"></i></a>
+      <a href="https://twitter.com/KSubediTweet"><i class="fa fa-twitter-square fa-3x"></i></a>
+      
+      <a href="" type="application/rss+xml"><i class="fa fa-rss-square fa-3x"></i></a>
+      </li>
+    </ul>
+
+    
+
+    <p>&copy; 2016 Kaushal Subedi<br/>
+    All Rights Reserved</p>
+  </div>
+</div>
+
+
+<div class="content container">
+  <div class="post">
+    <h1>State Of JavaScript Developement in 2016</h1>
+    <span class="post-date">Apr 6, 2016 &middot; 5 minute read &middot; <a href="https://kaushalsubedi.com/blog/2016/04/06/state-of-javascript-2016/#disqus_thread">Comments</a>
+    </span>
+    <p>I&rsquo;m on a roll with blog posts about how a bunch of different languages suck, and this time its Javascript&rsquo;s turn. Not too long ago, I made a blog post about how <a href="https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/">Node.js sucks</a> and it has been pretty interesting to see the community&rsquo;s feedback on that. There is a group who agrees with me that Node.js really does suck as a server side platform and there is the other group that thinks that JavaScript is the holy grail of languages and how its superior to everything else out there, but oh well, to each their own i guess. I, personally am really frustrated with the state of web developement on 2016 and JavaScript is pretty much 99% of the reason why.</p>
+
+<p>Let me start this by saying that these are just my opinions and you are free to think whatever you want. If you like JavaScript and enjoy working with it, good for you,  keep it up, but it&rsquo;s not the language for me. It&rsquo;s pretty damn awesome that web is the only true universal platform for applications, but it really sucks that we are limited to only one primary language (JavaScript) that is supported by the web. WebAssembly cannot come soon enough. The thing is, I really do enjoy programming in JavaScript till I hit these stupid little roadblocks that take ton of my time to figure out. JavaScript could have been a great language, but there are so many little issues everywhere, with the way it works, with the way the community around it works and with the way its implemented in different places. Lets start with the asynchronous nature of JavaScript.</p>
+
+<p>JavaScript is event loop based, and does not have threading support like most other languages out there. In theory that should not be a problem, but in practicality since there is so many different ways that asynchronous JavaScript is implemented that it is really frustrating to try to do anything in it. There are a ton of libraries that try to solve the problem by trying to do asynchronous JavaScript in a bunch of different ways, there is Promises, Async/Await, Highland.js and so much more. More choices are good, right? Nope, it sucks when every library out there is a trying to use a different way of doing asynchronous operations, and trying to wrap your head around it and switching context in your head every time you are trying to use a different library sucks. It&rsquo;s not like you can just learn one library like Promise and just use it everywhere or anything, you gotta learn everything and try to get used to all the ways asynchronous programming can be done in JavaScript so that you can use different libraries that use different implementations. It&rsquo;s crazy that JavaScript doesn&rsquo;t have a standarized way of doing async programming, although things are supposed to change with ES2015 and Async/Await support, but at this point it just seems like a big myth since the state of real world native ES2015 (ES6) support on most browsers is sad.</p>
+
+<p>Another big thing that sucks about JavaScript is that there is no standard library. As you might have already heard about the whole left-pad thing that happened recently, even to implement tiny little simple things people have to resort to third party libraries. You might say ask, &ldquo;Why don&rsquo;t you just implement the functionality yourself?&rdquo;, but not everyone has tons of free time to implement the littlelest things that are easily done in other languages. I love Golang a lot because I can do 90% of the things I need to do by just using the standard library built in to the language. Even though there are things like Lodash that do a pretty good job of being the &ldquo;kitchen-sink&rdquo; of JavaScript, it would be great to have a built in standard library.</p>
+
+<p>Hate me all you want for this, but the JavaScript community sucks. NPM sucks, i hate the way it works, i hate the way it is run. Who the hell thought it would be a good idea to let packages have global names instead of suffixing them with the username of the maintainer or something similar. This is supposed to happen with newer version of NPM (did it already happen?) but idk whose genious idea it was to not implement it from the beginning. You might think &ldquo;npm install &ndash;save something&rdquo; might be the best way to go about doing that &ldquo;something&rdquo; but it might just be a 10 year old who just started learning programming that might have gotten their hands on that name. If they only made it so you would have to do &ldquo;npm install &ndash;save someusername/somepackage&rdquo; it would solve the problem pretty much instantly. You might have heard abotu the whole kik package name issue on npm recently that would not have happened in the first place if something like this was implemented from the beginning.</p>
+
+<p>JavaScript has a huge community, and its a good and a bad thing. It&rsquo;s good that there is a great community support, but it&rsquo;s bad that a lot of programmers creating libraries and frameworks for the platform might not really know what they are doing. JavaScript is a really popular language for newcomers just because it runs everywhere, and that also means that there are a lot of newcomers that might not have a idea of what they are doing trying to &ldquo;contribute&rdquo; to the community. And specially with the ongoing job culture where companies judge how good of a programmer you are based on how many GitHub repo&rsquo;s you have, its easy to have a ton of beginners trying to fill up their NPM publisher profile and GitHub profile.</p>
+
+<p>There are a ton of third party libraries available in JavaScript for pretty much anything you can imagine, but it also creates an issue of too much abstraction everywhere. What you might be trying to might be something simple, but most libraries try to add abstractions on top of simple things to make them complicated. Oh you want to make a GET request to a JSON api? Why not also specify 50 other things that you don&rsquo;t really need and how about we us e</p>
+
+<p>Too Much Abstraction</p>
+
+<p>Comminunty / NPM</p>
+
+<p>Too Manby Different Ways of Programming</p>
+
+<p>tool fatigue</p>
+
+  </div>
+  <div id="disqus_thread"></div>
+</div>
+
+
+<script type="text/javascript">
+var disqus_shortname = "ksubedi";
+(function () {
+    var s = document.createElement('script'); s.async = true;
+    s.type = 'text/javascript';
+    s.src = '//' + disqus_shortname + '.disqus.com/count.js';
+    (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());
+</script>
+
+
+
+<script type="text/javascript">
+    var disqus_shortname = "ksubedi";
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+<script src="https://kaushalsubedi.com/blog/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-48832100-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+</body>
+</html>
+

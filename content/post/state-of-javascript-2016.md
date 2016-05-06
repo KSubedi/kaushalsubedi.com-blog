@@ -1,0 +1,30 @@
++++
+date = "2016-04-06T12:48:27-07:00"
+title = "State Of JavaScript Developement in 2016"
+slug = "state-of-javascript-2016"
+draft = true
++++
+
+I'm on a roll with blog posts about how a bunch of different languages suck, and this time its Javascript's turn. Not too long ago, I made a blog post about how [Node.js sucks](https://kaushalsubedi.com/blog/2014/10/15/node-js-sucks-heres-why/) and it has been pretty interesting to see the community's feedback on that. There is a group who agrees with me that Node.js really does suck as a server side platform and there is the other group that thinks that JavaScript is the holy grail of languages and how its superior to everything else out there, but oh well, to each their own i guess. I, personally am really frustrated with the state of web developement on 2016 and JavaScript is pretty much 99% of the reason why.
+
+Let me start this by saying that these are just my opinions and you are free to think whatever you want. If you like JavaScript and enjoy working with it, good for you,  keep it up, but it's not the language for me. It's pretty damn awesome that web is the only true universal platform for applications, but it really sucks that we are limited to only one primary language (JavaScript) that is supported by the web. WebAssembly cannot come soon enough. The thing is, I really do enjoy programming in JavaScript till I hit these stupid little roadblocks that take ton of my time to figure out. JavaScript could have been a great language, but there are so many little issues everywhere, with the way it works, with the way the community around it works and with the way its implemented in different places. Lets start with the asynchronous nature of JavaScript.
+
+JavaScript is event loop based, and does not have threading support like most other languages out there. In theory that should not be a problem, but in practicality since there is so many different ways that asynchronous JavaScript is implemented that it is really frustrating to try to do anything in it. There are a ton of libraries that try to solve the problem by trying to do asynchronous JavaScript in a bunch of different ways, there is Promises, Async/Await, Highland.js and so much more. More choices are good, right? Nope, it sucks when every library out there is a trying to use a different way of doing asynchronous operations, and trying to wrap your head around it and switching context in your head every time you are trying to use a different library sucks. It's not like you can just learn one library like Promise and just use it everywhere or anything, you gotta learn everything and try to get used to all the ways asynchronous programming can be done in JavaScript so that you can use different libraries that use different implementations. It's crazy that JavaScript doesn't have a standarized way of doing async programming, although things are supposed to change with ES2015 and Async/Await support, but at this point it just seems like a big myth since the state of real world native ES2015 (ES6) support on most browsers is sad.
+
+Another big thing that sucks about JavaScript is that there is no standard library. As you might have already heard about the whole left-pad thing that happened recently, even to implement tiny little simple things people have to resort to third party libraries. You might say ask, "Why don't you just implement the functionality yourself?", but not everyone has tons of free time to implement the littlelest things that are easily done in other languages. I love Golang a lot because I can do 90% of the things I need to do by just using the standard library built in to the language. Even though there are things like Lodash that do a pretty good job of being the "kitchen-sink" of JavaScript, it would be great to have a built in standard library.
+
+Hate me all you want for this, but the JavaScript community sucks. NPM sucks, i hate the way it works, i hate the way it is run. Who the hell thought it would be a good idea to let packages have global names instead of suffixing them with the username of the maintainer or something similar. This is supposed to happen with newer version of NPM (did it already happen?) but idk whose genious idea it was to not implement it from the beginning. You might think "npm install --save something" might be the best way to go about doing that "something" but it might just be a 10 year old who just started learning programming that might have gotten their hands on that name. If they only made it so you would have to do "npm install --save someusername/somepackage" it would solve the problem pretty much instantly. You might have heard abotu the whole kik package name issue on npm recently that would not have happened in the first place if something like this was implemented from the beginning.
+
+JavaScript has a huge community, and its a good and a bad thing. It's good that there is a great community support, but it's bad that a lot of programmers creating libraries and frameworks for the platform might not really know what they are doing. JavaScript is a really popular language for newcomers just because it runs everywhere, and that also means that there are a lot of newcomers that might not have a idea of what they are doing trying to "contribute" to the community. And specially with the ongoing job culture where companies judge how good of a programmer you are based on how many GitHub repo's you have, its easy to have a ton of beginners trying to fill up their NPM publisher profile and GitHub profile. 
+
+There are a ton of third party libraries available in JavaScript for pretty much anything you can imagine, but it also creates an issue of too much abstraction everywhere. What you might be trying to might be something simple, but most libraries try to add abstractions on top of simple things to make them complicated. Oh you want to make a GET request to a JSON api? Why not also specify 50 other things that you don't really need and how about we us e 
+
+
+ 
+Too Much Abstraction
+
+Comminunty / NPM 
+
+Too Manby Different Ways of Programming
+
+tool fatigue

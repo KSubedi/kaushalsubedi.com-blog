@@ -2,7 +2,7 @@ baseurl = "https://kaushalsubedi.com/blog/"
 languageCode = "en-us"
 title = "Kaushal Subedi's Blog"
 theme = "hyde-x"
-copyright = "© 2015 Kaushal Subedi, All Rights Reserved"
+copyright = "© 2016 Kaushal Subedi, All Rights Reserved"
 paginate = 10
 paginatePath = "page"
 disqusShortname = "ksubedi"
@@ -30,7 +30,7 @@ disqusShortname = "ksubedi"
 
     # Displays under the author name in the sidebar, keep it short.
     # You can use markdown here.
-    tagline = "Random things from the head of a web developer."
+    tagline = "Random things from the head of a developer."
 
     theme = "theme-base-4b"
     highlight = "sunburst"
